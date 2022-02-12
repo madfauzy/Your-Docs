@@ -1,0 +1,47 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.title {
+    font-family: 'Pacifico', cursive;
+}
+
+.text-html {
+    color: #e44d26;
+}
+
+.text-css {
+    color: #264de4;
+}
+
+.text-javascript {
+    color: #f0db4f;
+}
+
+.text-php {
+    color: #474a8a;
+}
+
+.bg-html {
+    background-color: #e44d26;
+}
+
+.bg-css {
+    background-color: #264de4;
+}
+
+.bg-javascript {
+    background-color: #f0db4f;
+    color: #323330;
+}
+
+.bg-php {
+    background-color: #474a8a;
+}
+
+.html-docs .card-title {
+    color: #e44d26 !important;
+    border-bottom: 1px dotted #e44d26;
+    cursor: pointer;
+    text-align: center;
+}
