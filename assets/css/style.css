@@ -1,5 +1,6 @@
 body {
     font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
 }
 
 .title {
@@ -7,41 +8,66 @@ body {
 }
 
 .text-html {
-    color: #e44d26;
+    color: #E34C26;
 }
 
 .text-css {
-    color: #264de4;
+    color: #3C99DC;
 }
 
 .text-javascript {
-    color: #f0db4f;
+    color: #F9C74F;
 }
 
 .text-php {
-    color: #474a8a;
+    color: #474A8A;
 }
 
 .bg-html {
-    background-color: #e44d26;
+    color: white;
+    background-color: #E34C26;
+}
+
+.bg-html:hover {
+    color: #E34C26;
+    background-color: white;
+    border-color: #E34C26;
 }
 
 .bg-css {
-    background-color: #264de4;
+    color: white;
+    background-color: #3C99DC;
+}
+
+.bg-css:hover {
+    color: #3C99DC;
+    background-color: white;
+    border-color: #3C99DC;
 }
 
 .bg-javascript {
-    background-color: #f0db4f;
     color: #323330;
+    background-color: #F9C74F;
+}
+
+.bg-javascript:hover {
+    color: #F9C74F;
+    background-color: white;
+    border-color: #F9C74F;
 }
 
 .bg-php {
-    background-color: #474a8a;
+    color: white;
+    background-color: #474A8A;
 }
 
-.html-docs .card-title {
-    color: #e44d26 !important;
+.bg-php:hover {
+    color: #474A8A;
+    background-color: white;
+    border-color: #474A8A;
+}
+
+.card-title {
     border-bottom: 1px dotted #e44d26;
     cursor: pointer;
-    text-align: center;
 }
