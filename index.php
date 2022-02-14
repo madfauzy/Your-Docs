@@ -38,7 +38,7 @@
 
     <main class="container">
         <div class="row">
-            <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
                 <div class="card h-100 shadow-sm">
                     <div class="card-body">
                         <h4 class="card-title text-html text-center"><a data-bs-toggle="modal" data-bs-target="#HTML-Basic">HTML Basic</a></h4>
@@ -59,7 +59,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
                 <div class="card h-100 shadow-sm">
                     <div class="card-body">
                         <h4 class="card-title text-html text-center"><a data-bs-toggle="modal" data-bs-target="#HTML-Elements">HTML Elements</a></h4>
@@ -80,7 +80,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
                 <div class="card h-100 shadow-sm">
                     <div class="card-body">
                         <h4 class="card-title text-html text-center"><a data-bs-toggle="modal" data-bs-target="#HTML-Headings">HTML Headings</a></h4>
@@ -101,7 +101,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
                 <div class="card h-100 shadow-sm">
                     <div class="card-body">
                         <h4 class="card-title text-html text-center"><a data-bs-toggle="modal" data-bs-target="#HTML-Paragraphs">HTML Paragraphs</a></h4>
@@ -115,6 +115,92 @@
                                     </div>
                                     <div class="modal-body">
                                         <?php require "assets/includes/html-paragraphs.html"; ?>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h4 class="card-title text-html text-center"><a data-bs-toggle="modal" data-bs-target="#HTML-Styles">HTML Styles</a></h4>
+                        <p class="card-text">Atribut style digunakan untuk menambahkan style ke elemen, seperti warna, font, ukuran, dan lainnya.</p>
+                        <div class="modal fade" id="HTML-Styles" tabindex="-1" aria-labelledby="HTML-StylesLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="HTML-StylesLabel">HTML Styles</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <?php require "assets/includes/html-styles.html"; ?>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h4 class="card-title text-html text-center"><a data-bs-toggle="modal" data-bs-target="#HTML-Formatting">HTML Formatting</a></h4>
+                        <p class="card-text">HTML berisi beberapa elemen untuk mendefinisikan teks dengan arti khusus.</p>
+                        <div class="modal fade" id="HTML-Formatting" tabindex="-1" aria-labelledby="HTML-FormattingLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="HTML-FormattingLabel">HTML Formatting</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <?php require "assets/includes/html-formatting.html"; ?>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h4 class="card-title text-html text-center"><a data-bs-toggle="modal" data-bs-target="#HTML-Quotations">HTML Quotations</a></h4>
+                        <p class="card-text">HTML Quotations digunakan untuk membuat kutipan dalam HTML.</p>
+                        <div class="modal fade" id="HTML-Quotations" tabindex="-1" aria-labelledby="HTML-QuotationsLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="HTML-QuotationsLabel">HTML Quotations</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <?php require "assets/includes/html-quotations.html"; ?>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h4 class="card-title text-html text-center"><a data-bs-toggle="modal" data-bs-target="#HTML-Comments">HTML Comments</a></h4>
+                        <p class="card-text">Komentar HTML tidak ditampilkan di browser, tetapi dapat membantu mendokumentasikan kode HTML Anda.</p>
+                        <div class="modal fade" id="HTML-Comments" tabindex="-1" aria-labelledby="HTML-CommentsLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="HTML-CommentsLabel">HTML Comments</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <?php require "assets/includes/html-comments.html"; ?>
                                     </div>
                                 </div>
                             </div>
