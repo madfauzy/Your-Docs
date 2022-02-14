@@ -51,7 +51,7 @@
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        <?php require "assets/html-docs/html-basic.php"; ?>
+                                        <?php require "assets/html-docs/html-basic.html"; ?>
                                     </div>
                                 </div>
                             </div>
@@ -72,7 +72,7 @@
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        <?php require "assets/html-docs/html-elements.php"; ?>
+                                        <?php require "assets/html-docs/html-elements.html"; ?>
                                     </div>
                                 </div>
                             </div>
@@ -93,7 +93,7 @@
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        <?php require "assets/html-docs/html-headings.php"; ?>
+                                        <?php require "assets/html-docs/html-headings.html"; ?>
                                     </div>
                                 </div>
                             </div>
@@ -114,7 +114,7 @@
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        <?php require "assets/html-docs/html-paragraphs.php"; ?>
+                                        <?php require "assets/html-docs/html-paragraphs.html"; ?>
                                     </div>
                                 </div>
                             </div>
