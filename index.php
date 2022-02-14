@@ -18,12 +18,12 @@
     <div class="container py-5">
         <h1 class="display-5 text-center mb-5 title"><a class="text-reset text-decoration-none" href="index.php">Your Documentation</a></h1>
         <div class="row mb-3">
-            <div class="col-md-8 m-auto d-flex justify-content-center">
+            <div class="col-md-8 m-auto d-flex flex-wrap justify-content-center">
                 <!-- TODO: Buat Halaman Tiap Dokumentasi -->
-                <a class="btn fw-bold mx-2 bg-html" href="#" role="button">HTML</a>
-                <a class="btn fw-bold mx-2 bg-css" href="#" role="button">CSS</a>
-                <a class="btn fw-bold mx-2 bg-javascript" href="#" role="button">Javascript</a>
-                <a class="btn fw-bold mx-2 bg-php" href="#" role="button">PHP</a>
+                <a class="btn fw-bold mx-1 mx-sm-2 mb-2 bg-html" href="#" role="button">HTML</a>
+                <a class="btn fw-bold mx-1 mx-sm-2 mb-2 bg-css" href="#" role="button">CSS</a>
+                <a class="btn fw-bold mx-1 mx-sm-2 mb-2 bg-javascript" href="#" role="button">Javascript</a>
+                <a class="btn fw-bold mx-1 mx-sm-2 mb-2 bg-php" href="#" role="button">PHP</a>
             </div>
         </div>
         <div class="row">
@@ -38,7 +38,7 @@
 
     <main class="container">
         <div class="row">
-            <div class="col-sm-6 col-md-4 col-lg-3 mb-2">
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
                 <div class="card h-100 shadow-sm">
                     <div class="card-body">
                         <h4 class="card-title text-html text-center"><a data-bs-toggle="modal" data-bs-target="#HTML-Basic">HTML Basic</a></h4>
@@ -51,7 +51,7 @@
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        <?php require "assets/html-docs/html-basic.html"; ?>
+                                        <?php require "assets/includes/html-basic.html"; ?>
                                     </div>
                                 </div>
                             </div>
@@ -59,7 +59,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 mb-2">
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
                 <div class="card h-100 shadow-sm">
                     <div class="card-body">
                         <h4 class="card-title text-html text-center"><a data-bs-toggle="modal" data-bs-target="#HTML-Elements">HTML Elements</a></h4>
@@ -72,7 +72,7 @@
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        <?php require "assets/html-docs/html-elements.html"; ?>
+                                        <?php require "assets/includes/html-elements.html"; ?>
                                     </div>
                                 </div>
                             </div>
@@ -80,7 +80,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 mb-2">
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
                 <div class="card h-100 shadow-sm">
                     <div class="card-body">
                         <h4 class="card-title text-html text-center"><a data-bs-toggle="modal" data-bs-target="#HTML-Headings">HTML Headings</a></h4>
@@ -93,7 +93,7 @@
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        <?php require "assets/html-docs/html-headings.html"; ?>
+                                        <?php require "assets/includes/html-headings.html"; ?>
                                     </div>
                                 </div>
                             </div>
@@ -101,7 +101,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 mb-2">
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
                 <div class="card h-100 shadow-sm">
                     <div class="card-body">
                         <h4 class="card-title text-html text-center"><a data-bs-toggle="modal" data-bs-target="#HTML-Paragraphs">HTML Paragraphs</a></h4>
@@ -114,7 +114,7 @@
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        <?php require "assets/html-docs/html-paragraphs.html"; ?>
+                                        <?php require "assets/includes/html-paragraphs.html"; ?>
                                     </div>
                                 </div>
                             </div>
