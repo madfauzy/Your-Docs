@@ -27,7 +27,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-10 col-md-8 col-lg-6 m-auto">
+            <div class="col-sm-10 col-lg-6 m-auto">
                 <!-- TODO: Buat Live Search -->
                 <form action="" method="get">
                     <input class="form-control" aria-label="Search" type="search" name="keyword" placeholder="Search Documentation" autocomplete="off" autofocus>

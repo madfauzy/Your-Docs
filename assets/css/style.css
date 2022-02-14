@@ -71,3 +71,7 @@ body {
     border-bottom: 1px dotted #e44d26;
     cursor: pointer;
 }
+
+pre code {
+    border-radius: 0.3rem;
+}
