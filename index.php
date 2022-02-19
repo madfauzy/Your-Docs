@@ -83,6 +83,27 @@
             <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
                 <div class="card h-100 shadow-sm">
                     <div class="card-body">
+                        <h4 class="card-title text-html text-center"><a data-bs-toggle="modal" data-bs-target="#HTML-Attributes">HTML Attributes</a></h4>
+                        <p class="card-text">Atribut HTML memberikan informasi tambahan tentang elemen HTML.</p>
+                        <div class="modal fade" id="HTML-Attributes" tabindex="-1" aria-labelledby="HTML-AttributesLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="HTML-AttributesLabel">HTML Attributes</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <?php require "assets/includes/html-attributes.html"; ?>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
                         <h4 class="card-title text-html text-center"><a data-bs-toggle="modal" data-bs-target="#HTML-Headings">HTML Headings</a></h4>
                         <p class="card-text">Heading adalah judul atau subjudul yang ingin Anda tampilkan di halaman web.</p>
                         <div class="modal fade" id="HTML-Headings" tabindex="-1" aria-labelledby="HTML-HeadingsLabel" aria-hidden="true">
@@ -122,8 +143,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
             <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
                 <div class="card h-100 shadow-sm">
                     <div class="card-body">
@@ -201,6 +220,69 @@
                                     </div>
                                     <div class="modal-body">
                                         <?php require "assets/includes/html-comments.html"; ?>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h4 class="card-title text-html text-center"><a data-bs-toggle="modal" data-bs-target="#HTML-CSS">HTML CSS</a></h4>
+                        <p class="card-text">Cascading Style Sheets (CSS) digunakan untuk memformat tata letak halaman web.</p>
+                        <div class="modal fade" id="HTML-CSS" tabindex="-1" aria-labelledby="HTML-CSSLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="HTML-CSSLabel">HTML CSS</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <?php require "assets/includes/html-css.html"; ?>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h4 class="card-title text-html text-center"><a data-bs-toggle="modal" data-bs-target="#HTML-Links">HTML Links</a></h4>
+                        <p class="card-text">Link ditemukan di hampir semua halaman web. Link memungkinkan pengguna mengklik dari halaman ke halaman.</p>
+                        <div class="modal fade" id="HTML-Links" tabindex="-1" aria-labelledby="HTML-LinksLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="HTML-LinksLabel">HTML Links</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <?php require "assets/includes/html-links.html"; ?>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h4 class="card-title text-html text-center"><a data-bs-toggle="modal" data-bs-target="#HTML-Images">HTML Images</a></h4>
+                        <p class="card-text">Gambar dapat meningkatkan desain dan tampilan halaman web.</p>
+                        <div class="modal fade" id="HTML-Images" tabindex="-1" aria-labelledby="HTML-ImagesLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="HTML-ImagesLabel">HTML Images</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <?php require "assets/includes/html-images.html"; ?>
                                     </div>
                                 </div>
                             </div>
