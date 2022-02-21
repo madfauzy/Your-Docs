@@ -290,6 +290,90 @@
                     </div>
                 </div>
             </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h4 class="card-title text-html text-center"><a data-bs-toggle="modal" data-bs-target="#HTML-Favicon">HTML Favicon</a></h4>
+                        <p class="card-text">Favicon adalah gambar kecil yang ditampilkan di sebelah judul halaman di tab browser.</p>
+                        <div class="modal fade" id="HTML-Favicon" tabindex="-1" aria-labelledby="HTML-FaviconLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="HTML-FaviconLabel">HTML Favicon</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <?php require "assets/includes/html-favicon.html"; ?>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h4 class="card-title text-html text-center"><a data-bs-toggle="modal" data-bs-target="#HTML-Tables">HTML Tables</a></h4>
+                        <p class="card-text">Tabel HTML memungkinkan pengembang web untuk mengatur data ke dalam baris dan kolom.</p>
+                        <div class="modal fade" id="HTML-Tables" tabindex="-1" aria-labelledby="HTML-TablesLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="HTML-TablesLabel">HTML Tables</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <?php require "assets/includes/html-tables.html"; ?>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h4 class="card-title text-html text-center"><a data-bs-toggle="modal" data-bs-target="#HTML-Lists">HTML Lists</a></h4>
+                        <p class="card-text">List HTML memungkinkan pengembang web untuk mengelompokkan satu set item terkait dalam daftar.</p>
+                        <div class="modal fade" id="HTML-Lists" tabindex="-1" aria-labelledby="HTML-ListsLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="HTML-ListsLabel">HTML Lists</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <?php require "assets/includes/html-lists.html"; ?>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h4 class="card-title text-html text-center"><a data-bs-toggle="modal" data-bs-target="#HTML-BlockInline">HTML Block Inline</a></h4>
+                        <p class="card-text">Setiap elemen HTML memiliki nilai tampilan default, tergantung pada jenis elemennya.</p>
+                        <div class="modal fade" id="HTML-BlockInline" tabindex="-1" aria-labelledby="HTML-BlockInlineLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="HTML-BlockInlineLabel">HTML Block Inline</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <?php require "assets/includes/html-blockinline.html"; ?>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 
