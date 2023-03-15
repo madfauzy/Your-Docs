@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/docsify@4.13.0/themes/vue.css"
+      integrity="sha256-mcbFKWgGxfOpNmPsvD9HJp8fOP+NDYwUjCiVuHZz0TA="
+      crossorigin="anonymous"
+    />
+    <title>Your Docs</title>
+  </head>
+  <body>
+    <div id="app">Please Wait...</div>
+    <script>
+      window.$docsify = {
+        auto2top: true,
+        loadSidebar: true,
+        subMaxLevel: 3,
+        name: 'Your Docs',
+        search: {
+          paths: 'auto',
+          placeholder: 'Type to search',
+          noData: 'No Results!',
+        },
+      };
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/docsify@4.13.0/lib/docsify.min.js"
+      integrity="sha256-ycM1gQUpS76Yjdc8fQA5WlyWGQ7YtDR68v+cbMEhdLY="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/docsify@4.13.0/lib/plugins/search.min.js"
+      integrity="sha256-EQ89+XDMijZPOudyi8h8s6CLYewEcNGqmQ02Agk5ZyM="
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
