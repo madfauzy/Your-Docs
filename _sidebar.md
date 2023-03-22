@@ -1,5 +1,4 @@
 - Getting Started
-
   - [Home](/)
   - [PHP](php.md)
   - [JavaScript](javascript.md)
