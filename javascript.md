@@ -1,26 +1,6 @@
 # JavaScript Documentation
 
-You can use [JavaScript Standard Style](https://standardjs.com/) or [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html). I recommend using [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
-
-Best Practice: [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
-
-- [Template Literals](#template-literals)
-- [Object](#object)
-  - [Delete Object](#delete-object)
-- [Array](#array)
-  - [Array Push](#array-push)
-  - [Array Pop](#array-pop)
-  - [Array Shift](#array-shift)
-  - [Array Unshift](#array-unshift)
-  - [Array Splice](#array-splice)
-  - [Array Map](#array-map)
-  - [Array Filter](#array-filter)
-- [Spread Operator](#spread-operator)
-  - [Rest Parameter](#rest-parameter)
-- [Destructuring Object And Array](#destructuring-object-and-array)
-- [Anonymous Function](#anonymous-function)
-- [Arrow Function](#arrow-function)
-- [Class](#class)
+!> **Style Guide**: [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 
 ## Template Literals
 
