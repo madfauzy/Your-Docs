@@ -1,5 +1,7 @@
 # Commit Message
 
+!> **Style Guide**: [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+
 <table>
   <thead>
     <tr>
@@ -46,5 +48,3 @@
     </tr>
   </tbody>
 </table>
-
-Reference: [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
