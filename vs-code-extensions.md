@@ -68,6 +68,10 @@
       <td>Auto rename paired HTML/XML tag</td>
     </tr>
     <tr>
+      <td><a href="https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek" target="_blank">CSS Peek</a></td>
+      <td>Allow peeking to css ID and class strings as definitions from html files to respective CSS. Allows peek and goto definition</td>
+    </tr>
+    <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css" target="_blank">HTML CSS Support</a></td>
       <td>CSS Intellisense for HTML</td>
     </tr>
