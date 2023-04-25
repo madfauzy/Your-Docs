@@ -223,6 +223,10 @@
       <td>Your AI pair programmer</td>
     </tr>
     <tr>
+      <td><a href="https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-labs" target="_blank">GitHub Copilot Labs</a></td>
+      <td>Experimental features for GitHub Copilot</td>
+    </tr>
+    <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer" target="_blank">Live Server</a></td>
       <td>Launch a development local Server with live reload feature for static & dynamic pages</td>
     </tr>
