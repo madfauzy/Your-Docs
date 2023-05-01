@@ -227,6 +227,10 @@
       <td>Experimental features for GitHub Copilot</td>
     </tr>
     <tr>
+      <td><a href="https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens" target="_blank">GitLens — Git supercharged</a></td>
+      <td>Supercharge Git within VS Code — Visualize code authorship at a glance via Git blame annotations and CodeLens, seamlessly navigate and explore Git repositories, gain valuable insights via rich visualizations and powerful comparison commands, and so much more</td>
+    </tr>
+    <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer" target="_blank">Live Server</a></td>
       <td>Launch a development local Server with live reload feature for static & dynamic pages</td>
     </tr>
