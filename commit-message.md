@@ -32,6 +32,11 @@
       <td>fix: Fix issue with login page not redirecting correctly</td>
     </tr>
     <tr>
+      <td>🔧 adjust</td>
+      <td>Adjusting code</td>
+      <td>adjust: Update timeout duration for API requests</td>
+    </tr>
+    <tr>
       <td>♻️ refactor</td>
       <td>Restructuring or optimizing code</td>
       <td>refactor: Simplify code for handling user authentication</td>
