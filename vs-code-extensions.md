@@ -24,7 +24,7 @@
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme" target="_blank">One Dark Pro</a></td>
-      <td>Atom‘s iconic One Dark theme for Visual Studio Code</td>
+      <td>Atom's iconic One Dark theme for Visual Studio Code</td>
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense" target="_blank">Path Intellisense</a></td>
@@ -66,10 +66,6 @@
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag" target="_blank">Auto Rename Tag</a></td>
       <td>Auto rename paired HTML/XML tag</td>
-    </tr>
-    <tr>
-      <td><a href="https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek" target="_blank">CSS Peek</a></td>
-      <td>Allow peeking to css ID and class strings as definitions from html files to respective CSS. Allows peek and goto definition</td>
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css" target="_blank">HTML CSS Support</a></td>
@@ -223,10 +219,6 @@
       <td>Your AI pair programmer</td>
     </tr>
     <tr>
-      <td><a href="https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-labs" target="_blank">GitHub Copilot Labs</a></td>
-      <td>Experimental features for GitHub Copilot</td>
-    </tr>
-    <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens" target="_blank">GitLens — Git supercharged</a></td>
       <td>Supercharge Git within VS Code — Visualize code authorship at a glance via Git blame annotations and CodeLens, seamlessly navigate and explore Git repositories, gain valuable insights via rich visualizations and powerful comparison commands, and so much more</td>
     </tr>
@@ -255,7 +247,7 @@
 {
   // Clean and Minimalistic
   "breadcrumbs.enabled": false,
-  "diffEditor.ignoreTrimWhitespace": true,
+  "diffEditor.ignoreTrimWhitespace": false,
   "editor.formatOnSave": true,
   "editor.guides.bracketPairs": "active",
   "editor.inlineSuggest.enabled": true,
@@ -329,6 +321,6 @@
   ],
 
   // Extension: Todo Tree
-  "todo-tree.highlights.enabled": false
+  "todo-tree.highlights.enabled": false,
 }
 ```
