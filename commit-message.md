@@ -14,42 +14,42 @@
     <tr>
       <td>📝 docs</td>
       <td>Updating documentation</td>
-      <td>docs: Update README.md with installation instructions</td>
+      <td>docs: update README.md with installation instructions</td>
     </tr>
     <tr>
       <td>✨ feat</td>
       <td>Adding new functionality or features</td>
-      <td>feat: Add new user authentication feature</td>
+      <td>feat: add new user authentication feature</td>
     </tr>
     <tr>
       <td>🎨 style</td>
       <td>Making changes related to styling</td>
-      <td>style: Format code to follow Airbnb JavaScript Style Guide</td>
+      <td>style: format code to follow Airbnb JavaScript Style Guide</td>
     </tr>
     <tr>
       <td>🐛 fix</td>
       <td>Fixing a bug or issue</td>
-      <td>fix: Fix issue with login page not redirecting correctly</td>
+      <td>fix: fix issue with login page not redirecting correctly</td>
     </tr>
     <tr>
       <td>🔧 adjust</td>
       <td>Adjusting code</td>
-      <td>adjust: Update timeout duration for API requests</td>
+      <td>adjust: update timeout duration for API requests</td>
     </tr>
     <tr>
       <td>♻️ refactor</td>
       <td>Restructuring or optimizing code</td>
-      <td>refactor: Simplify code for handling user authentication</td>
+      <td>refactor: simplify code for handling user authentication</td>
     </tr>
     <tr>
       <td>✅ test</td>
       <td>Adding or modifying tests</td>
-      <td>test: Add unit tests for user authentication feature</td>
+      <td>test: add unit tests for user authentication feature</td>
     </tr>
     <tr>
       <td>👷 chore</td>
       <td>Updating dependencies</td>
-      <td>chore: Update dependencies to latest version</td>
+      <td>chore: update dependencies to latest version</td>
     </tr>
   </tbody>
 </table>
