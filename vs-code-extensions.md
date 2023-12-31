@@ -35,6 +35,10 @@
       <td>Code formatter using prettier</td>
     </tr>
     <tr>
+      <td><a href="https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode" target="_blank">SonarLint</a></td>
+      <td>Linter to detect & fix coding issues locally in JS/TS, Python, PHP, Java, C, C++, C#, Go, IaC. Use with SonarQube & SonarCloud for optimal team performance</td>
+    </tr>
+    <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines" target="_blank">Sort lines</a></td>
       <td>Sorts lines of text</td>
     </tr>
@@ -207,6 +211,14 @@
   </thead>
   <tbody>
     <tr>
+      <td><a href="https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap" target="_blank">CodeSnap</a></td>
+      <td>📷 Take beautiful screenshots of your code</td>
+    </tr>
+    <tr>
+      <td><a href="https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker" target="_blank">Docker</a></td>
+      <td>Makes it easy to create, manage, and debug containerized applications</td>
+    </tr>
+    <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv" target="_blank">DotENV</a></td>
       <td>Support for dotenv file syntax</td>
     </tr>
@@ -217,6 +229,10 @@
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=GitHub.copilot" target="_blank">GitHub Copilot</a></td>
       <td>Your AI pair programmer</td>
+    </tr>
+    <tr>
+      <td><a href="https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat" target="_blank">GitHub Copilot Chat</a></td>
+      <td>AI chat features powered by Copilot</td>
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens" target="_blank">GitLens — Git supercharged</a></td>
